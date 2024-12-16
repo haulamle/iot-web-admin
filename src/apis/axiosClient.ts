@@ -1,7 +1,8 @@
 import axios from "axios";
 import { localDataNames } from "../constants/appInfos";
 
-const baseURL = `http://192.168.1.11:3002`;
+// const baseURL = `http://192.168.1.11:8000`;
+const baseURLProduction = `https://iot-server-x4ui.onrender.com`;
 const getAssetToken = () => {
   const res = localStorage.getItem(localDataNames.authData);
   if (res) {
@@ -13,7 +14,7 @@ const getAssetToken = () => {
 };
 
 const axiosClient = axios.create({
-  baseURL,
+  baseURL: baseURLProduction,
   headers: {
     "Content-Type": "application/json",
     Authorization: `Bearer ${getAssetToken()}`,
