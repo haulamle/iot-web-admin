@@ -15,9 +15,12 @@ export default function AuthRouter() {
         >
           <img
             className="mb-4"
-            src="../../../public/logo.png"
+            src="https://png.pngtree.com/png-vector/20210508/ourlarge/pngtree-thermometer-for-measuring-air-temperature-png-image_3258122.jpg"
             alt="logo"
-            style={{ width: 256, objectFit: "cover" }}
+            style={{
+              width: 256,
+              objectFit: "cover",
+            }}
           />
           <Title style={{ color: colors.primary500 }}>Temperature</Title>
         </div>

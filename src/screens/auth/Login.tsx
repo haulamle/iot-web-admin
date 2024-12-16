@@ -38,7 +38,7 @@ export default function Login() {
     <Card loading={isLoading}>
       <div className="text-center">
         <img
-          src="../../../public/logo.png"
+          src="https://png.pngtree.com/png-vector/20210508/ourlarge/pngtree-thermometer-for-measuring-air-temperature-png-image_3258122.jpg"
           alt="logo"
           style={{ width: 48, height: 48 }}
           className="mb-3"

@@ -24,7 +24,11 @@ const SiderComponent = () => {
   return (
     <Sider width={280} theme="light" style={{ height: "100vh" }}>
       <div className="p-2 d-flex align-items-center pl-4">
-        <img alt="" src="../../../public/logo.png" width={48} />
+        <img
+          alt=""
+          src="https://png.pngtree.com/png-vector/20210508/ourlarge/pngtree-thermometer-for-measuring-air-temperature-png-image_3258122.jpg"
+          width={48}
+        />
         <Text
           style={{
             fontWeight: "bold",
